@@ -1,5 +1,8 @@
+import random
 
+numero_aleatorio = random.randint(1, 10)
 
+print (numero_aleatorio)
 chute_usuario = input("Digite um numero de 0 a 10: ")
 
 chute_numero_int = int(chute_usuario)
